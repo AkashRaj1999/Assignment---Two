@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+                
+
+
+.open {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style : normal;
+    font-variation-settings:
+      "wdth" 100;
+      background-color: #000;
+  }
+  
+  .bg-light{
+    background-color: rgb(4, 22, 22);
+}
+.shape{
+    font-family: 'Miami', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+  
+                                                
+}
+.height,.weight,.age, .sex{
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: rgba(239, 237, 232, 0.65);
+}
+.Sns{
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: rgba(239, 237, 232, 0.65);
+
+}
+  .img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(29, 26, 26);
+    border-radius: 50%;
+
+  }
+  .text-primary{
+    color: #FF900E;
+  }
+  .display-flex{
+    display: flex;
+  }
+  .nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    justify-content: space-evenly;
+    gap: 2rem;
+    width: 465px;
+    height: 46px;
+    border: 1px solid rgb(29, 26, 26);
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    border-radius: 40px;
+    align-items: center;
+}
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+  
+  /*nav style */
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 50px 200px;
+  }
+  .nav-item-home{
+    padding: 10px 10px;
+    background-color: orangered;
+    font-size: 18px;
+    border-radius: 2rem;
+    border-width: 2rem;
+    border: none;
+    justify-content: right;
+    
+    
+  }
+  .nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    font-style: italic;
+    color: orangered;
+  }
+  nav ul{
+    display: flex;
+  }
+  .btn-primary{
+    padding: 18px 35px;
+    background-color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 32px;
+    border: none;
+    text-align: left;
+    
+  }
+  .btn-cardone{
+    padding: 5px 10px 10px 11px;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    margin-right: 1250px;
+    margin-top: -1600px;
+    
+  }
+
+  
+
+  
+  .btn-prim{
+    padding: 18px 35px;
+    background-color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 32px;
+    border: 2px solid white;
+  }
+  
+  
+  .nav-item{
+    color: darkcyan ;
+    margin-right: 50px;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul a{
+    text-decoration: none;
+  }
+  .banner{
+    display: flex;
+    
+  }
+  #btn-banner{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#btn-type{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+  
+  .banner-title{
+    font-size: 78px;
+    font-weight: bold;
+    color: white;
+    width: 520px;
+    height: 282px;
+    border: 1px solid rgb(7, 28, 28);
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 28px 0px;
+  }
+  .bmi-color{
+    color: white;
+  }
+  .banner-profile-pic{
+    width: 380px;
+    border-radius: 32px;
+    height: auto;
+    object-fit: none;
+    position: relative;
+    object-position: 66% 33%;
+  
+  }
+  .banner-description{
+    color: darkcyan;
+    border: 1px solid rgb(7, 28, 28);
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 28px 0px;
+  }
+
+  /*main*/
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.img-bg{
+  background-color: rgb(7, 28, 28);
+  border-radius: 32px;
+  
+}
+.text-align{
+  text-align: center;
+}
+
+main > section{
+    margin-top: 130px;
+}
+.teams{
+    align-items: center;
+}
+
+.teams-position{
+  position: relative;
+
+}
+.cng-hb{
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.cng-wt{
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.darkcyan{
+    color: darkcyan;
+    text-align: center;
+}
+.fact-img{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+}
+.img-one{
+  font-size: 40px;
+}
+.section-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+.fact-description{
+  max-width: 540px;
+}
+.text-light-gray{
+  color: darkcyan;
+}
+.our-features{
+  margin-left: 130px;
+  max-width: 530px;
+}
+
+.img-one{
+  width: 300px;
+  height: 200px;
+  
+}
+.img-two{
+  width: 500px;
+  height: 200px;
+}
+.img-three{
+  width: 300px;
+  height: 200px;
+}
+.img-four{
+  width: 450px;
+  height: 200px;
+}
+.img-five{
+  width: 350px;
+  height: 200px;
+}
+.img-six{
+  width: 300px;
+  height: 200px;
+}
+
+.display-grid{
+  display: grid;
+}
+
+
+.section-tag{
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+ 
+}
+.img-bg-bmi{
+  background-color: rgb(7, 28, 28);
+}
+.bmi-col{
+  width: 45%;
+  }
+
+
+.bmi-container {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  border-radius: 65%;
+  
+}
+
+.bmi-chart {
+  width: 45%;
+}
+.bmi-calculation{
+  grid-template-columns: repeat(2, 1fr);
+  
+  
+}
+
+.bmi-chart h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.bmi-chart table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #333;
+}
+
+.bmi-chart th,
+.bmi-chart td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #444;
+  border-radius: 35%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-calculator {
+  width: 45%;
+  height: 45%;
+  
+}
+
+.bmi-calculator h2 {
+  font-weight: bold;
+}
+
+.bmi-calculator p {
+  margin: 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form select {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #444;
+  border: none;
+  color: #fff;
+}
+
+form button {
+  padding: 12px;
+  background-color: #ff5c4d;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #e14b39;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.footer-backend{
+  background-color: rgb(7, 28, 28);
+}
+
+.footer-title{
+  width: 256px;
+  height: 84px;
+  margin: 20px 0px;
+  color: rgb(230, 83, 60);
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
+  font-style: italic;
+  text-align: left;
+}
+.footer-description{
+  width: 443px;
+  height: 72px;
+  margin: 20px 0px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+.get-start{
+  width: 181px;
+  height: 38px;
+  color: rgb(255, 255, 255);
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+
+}
+ul> li{
+  list-style-type: none;
+  margin: 20px 0px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.hr{
+  width: 80%;
+  height: 2px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0 none;
+  background-color:rgba(255, 255, 255, 0.5);
+}
+.copyright{
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color:rgba(255, 255, 255, 0.5);
+}
+
+
+.team{
+  width: 1060px;
+  height: 782px;
+  margin-left: 190px;
+  margin-right: 190px; 
+  padding: 0px;
+  align-items: center; 
+}
+
+.trainer-container{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  width: 1060px auto;
+  height: 604px;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.trainer_img{
+  width: 326.67px;
+  height: 272px;
+  margin: 20px 0px;
+  border-radius: 18px;
+}
+.trainer-np{
+  position: relative;
+}
+.trainer_name{
+  color: white;
+  font-size: 22px;
+  font-weight: 480;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+.trainer_id{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 280;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+  .navbar, 
+  .nav-link, 
+  .features,
+  .teams{
+      flex-direction: column;
+  }
+
+  .team-img-container, 
+  .facts-container, 
+  .trainer-container
+  {
+      grid-template-columns: 1fr;
+  }
+
+  .facts-container{
+      justify-items: center;
+      gap: 24px;
+  }
+
+  .trainer-container{
+      justify-items: center;
+      gap: 50px;
+  }
+
+  .our-features{
+      margin-left: 20px;
+  }
+
+  #btn-banner{
+      margin-top: 20px;
+      margin-left: 20px;
+  }
+}
+
+/* medium size device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .teams, .features{
+      flex-direction: column;
+  }
+  .our-features{
+      margin: 50px auto;
+  }
+
+  .trainer-container, .facts-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px;
+      justify-items: center;
+  }
+
+  #btn-type{
+      margin-top: 20px;
+      margin-left: 20px;
+  }
+}
+
